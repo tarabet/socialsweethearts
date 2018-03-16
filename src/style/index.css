@@ -1,0 +1,70 @@
+body {
+    margin: 0;
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 15px;
+}
+
+.menu-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.range-slider {
+    width: 80%;
+}
+
+.menu-element {
+    flex: 1;
+    cursor: pointer;
+    text-align: center;
+    border: 1px solid gray;
+    border-radius: 5px;
+    margin-left: 5px;
+}
+
+.menu-element:hover {
+    background: aliceblue;
+}
+
+.radio-label-inline {
+    flex: 1;
+}
+
+.header {
+    height: 20px;
+}
+
+.footer {
+    height: 10px;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-bottom: 1px solid gray;
+}
+
+.apply-button {
+    border: none;
+    margin: 10px;
+}
+
+.column-1 {
+    flex: 2;
+}
+
+.column-2 {
+    flex: 1;
+}
+
+.column-3 {
+    flex: 4;
+}

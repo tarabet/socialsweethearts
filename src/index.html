@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Social Assignment Page</title>
+    <link href="style/index.css" rel="stylesheet">
+</head>
+<body>
+    <div class="header">
+        <div class="container"></div>
+    </div>
+    <div class="content">
+        <div class="container">
+            <div class="row" id="age-slider-row">
+                <div class="column-1">
+                    <div class="content-name">
+                        <h2>Age</h2>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div id= "age-value" class="content-value"></div>
+                </div>
+                <div class="column-3">
+                    <div class="content-control"></div>
+                </div>
+            </div>
+            <div class="row" id="height-slider-row">
+                <div class="column-1">
+                    <div class="content-name">
+                        <h2>Height</h2>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="content-value">
+                        <div class="content-value"></div>
+                    </div>
+                </div>
+                <div class="column-3">
+                    <div class="content-control"></div>
+                </div>
+            </div>
+            <div class="row" id="hair-select-row">
+                <div class="column-1">
+                    <div class="content-name">
+                        <h2>Hair</h2>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="content-value"></div>
+                </div>
+                <div class="column-3">
+                    <div class="content-control"></div>
+                </div>
+            </div>
+            <div class="row" id="hair-length-menu-row">
+                <div class="column-1">
+                    <div class="content-name">
+                        <h2>Hair length</h2>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="content-value"></div>
+                </div>
+                <div class="column-3">
+                    <div class="content-control"></div>
+                </div>
+            </div>
+            <div class="row" id="eyes-menu-row">
+                <div class="column-1">
+                    <div class="content-name">
+                        <h2>Eyes color</h2>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="content-value"></div>
+                </div>
+                <div class="column-3">
+                    <div class="content-control"></div>
+                </div>
+            </div>
+            <div class="row" id="beard-menu-row">
+                <div class="column-1">
+                    <div class="content-name">
+                        <h2>Beard</h2>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="content-value"></div>
+                </div>
+                <div class="column-3">
+                    <div class="content-control"></div>
+                </div>
+            </div>
+            <div class="row" id="body-menu-row">
+                <div class="column-1">
+                    <div class="content-name">
+                        <h2>Body</h2>
+                    </div>
+                </div>
+                <div class="column-2">
+                    <div class="content-value"></div>
+                </div>
+                <div class="column-3">
+                    <div class="content-control"></div>
+                </div>
+            </div>
+            <div class="row apply-button" id="apply-button-row">
+                <button onclick="valuesObj.getResult()"><h2>Apply</h2></button>
+            </div>
+            <div class="row" id="result-row">
+                <h2></h2>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="container"></div>
+    </div>
+    <script src="./js/dom.js"></script>
+    <script src="./js/logic.js"></script>
+    <script>
+        document.addEventListener('DOMContentLoaded', function(){
+            init();
+        });
+    </script>
+</body>
+</html>
